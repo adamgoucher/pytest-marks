@@ -8,14 +8,13 @@ setup(
     author_email = "adam@element34.ca",
     install_requires = ['pytest>2.0.2'],
     long_description=open('README.txt').read(),
-    
+    url='https://github.com/adamgoucher/pytest-marks',
     # the following makes a plugin available to py.test
     entry_points = {
         'pytest11': [
             'marks = marks.marks',
         ]
     },
-    
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',

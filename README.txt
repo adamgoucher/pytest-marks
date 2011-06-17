@@ -25,3 +25,7 @@ What would be nice is if you could apply them all in a single decorator.
         # some check-y stuff
 
 Well, now you can.
+
+To install, either
+* pip install pytest-marks
+* python setup.py install
