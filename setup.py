@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="pytest-marks",
     packages = ["marks"],
-    version = "0.1",
+    version = "0.2",
     author = "adam goucher",
     author_email = "adam@element34.ca",
     install_requires = ['pytest>2.0.2'],
