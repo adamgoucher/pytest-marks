@@ -20,6 +20,6 @@ class MarksDecorator(object):
         
     def __call__(self, f):
         for mark in self.marks:
-            info = MarkInfo(mark, None, None)
+            info = MarkInfo(mark, (), {})
             setattr(f, mark, info)
         return f
